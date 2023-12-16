@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+div.sectionheader{
+    text-align: center;
+    padding: 2%;
+    
+}
+
+div.calculatorsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.calculator{
+    border: 2px ridge black;
+    padding: 4%;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    margin-top: 3%;
+}
+
+form.form{
+    display: table;
+    margin: 0px auto;
+}
+
+div.row{
+    display: table-row;
+}
+
+div.row label{
+    display: table-cell;
+}
+
+div.row input{
+    display: table-cell;
+    margin-bottom: 5px;
+    padding: 2%;
+    margin-left: 3%;
+    outline: none;
+    font-size: 20px;
+    width: 90%;
+}
+
+div.btnd{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+button.btn{
+    padding: 2%;
+    border-radius: 5px;
+}
+
+p.result{
+    text-align: center;
+    margin-top: 3%;
+}
